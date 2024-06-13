@@ -12,3 +12,5 @@ let unit: Point = {
   x: 1,
   y: 1,
 };
+
+export {};

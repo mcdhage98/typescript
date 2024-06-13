@@ -7,3 +7,6 @@ let notPresent: null = null;
 
 let penta: symbol = Symbol("star");
 let biggy: bigint = 12n;
+
+export {}
+

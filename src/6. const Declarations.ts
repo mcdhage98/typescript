@@ -1,3 +1,8 @@
+type Point = {
+    x: number;
+    y: number;
+  };
+
 const cent: Point = {
   x: 1,
   y: 1,
@@ -9,3 +14,5 @@ const cent: Point = {
 
   //error cannot reassign variables to const
 */
+
+export {}

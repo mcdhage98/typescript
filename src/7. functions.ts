@@ -18,3 +18,5 @@ type Add = (a: number, b: number) => number;
 let add2: Add;
 
 const subtract = (a: number, b: number): number => a - b;
+
+export {}

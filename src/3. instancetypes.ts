@@ -15,3 +15,5 @@ class Queue<T> {
 }
 
 let q = new Queue<number>();
+
+export {}

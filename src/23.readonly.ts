@@ -18,4 +18,6 @@ class Animal {
 }
 const sheep = new Animal("sheep");
 console.log(sheep.name); // Allow
-sheep.name = "wolf"; // Disallow
+// sheep.name = "wolf"; // Disallow
+
+export {};

@@ -13,7 +13,7 @@ function formatCommandline(input: string | string[]) {
 }
 console.log(formatCommandline("hello ")); // 'hello'
 console.log(formatCommandline(["hello ", " world "])); // 'hello world'
-console.log(formatCommandline(1337)); // Error
+// console.log(formatCommandline(1337)); // Error
 
 /**
  * Takes a string and adds `padding to the left.
@@ -36,5 +36,3 @@ padLeft("Hello world", ""); // ---Hello world'
 padLeft("Hello world", false); // Error
 
 type Padding = number | string;
-
-

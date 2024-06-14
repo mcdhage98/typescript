@@ -10,3 +10,5 @@ function rollDice() {
   throw new Error("Not possible!");
 }
 */
+
+export {};

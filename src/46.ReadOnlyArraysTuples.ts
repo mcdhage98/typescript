@@ -8,7 +8,6 @@ console.log(start); // [1, 2, 3, 4, 5]
 type Neat = readonly number[];
 type Long = ReadonlyArray<number>;
 
-
 /////////////////////////////////////////
 type Point = readonly [number, number];
 function move(point: Point, x: number, y: number): Point {
@@ -18,3 +17,5 @@ const point: Point = [0, 0];
 const moved = move(point, 10, 10);
 console.log(moved); // [10, 10]
 console.log(point); // [10, 10]
+
+export {};

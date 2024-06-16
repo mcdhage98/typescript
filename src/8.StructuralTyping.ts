@@ -20,6 +20,8 @@ let point3d: Point3D = {
 };
 
 point2d = point3d;
+
+
 /*
   gives error only in typescript
   console.log(point2d.z);

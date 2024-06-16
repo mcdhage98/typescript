@@ -15,3 +15,5 @@ const example2 = {
 } as const;
 layout(example);
 layout(example2);
+
+export {};

@@ -15,3 +15,5 @@ point3 = point2 as Point3D; // Ok: I trust you
 //point3 = person; // Error
 //point3 = person as Point3D; // Error: I don't trust you enough
 point3 = person as unknown as Point3D; // Ok: I doubly trust you
+
+export {}

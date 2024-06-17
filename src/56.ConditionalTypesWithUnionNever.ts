@@ -19,3 +19,5 @@ type expanded2 =
 
 type expanded3 = string | null;
 type expanded4 = string;
+
+export {}

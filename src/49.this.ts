@@ -17,3 +17,5 @@ const invalid = {
 };
 
 //invalid.double(); // Error
+
+export {}

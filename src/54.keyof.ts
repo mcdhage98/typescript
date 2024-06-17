@@ -10,7 +10,8 @@ const john: Person = {
   location: "Melbourne",
 };
 
-type keysType = keyof Person; // string | number | string
+type keysType = keyof Person; // name | age | location
+let k: keysType = "name";
 
 function logGet<Obj, Key extends keyof Obj>(obj: Obj, key: Key) {
   const value = obj[key];

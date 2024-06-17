@@ -36,3 +36,4 @@ padLeft("Hello world", ""); // ---Hello world'
 padLeft("Hello world", false); // Error
 
 type Padding = number | string;
+export {};

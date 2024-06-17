@@ -25,3 +25,4 @@ class State<T> {
 
 let s = new State({ x: 0, y: 0 });
 s.update({ y: 10 });
+export {};
